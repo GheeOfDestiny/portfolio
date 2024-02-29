@@ -1,0 +1,90 @@
+#card2{
+  position: relative;
+  height: 650px;
+  background-color:#EEDDD3;
+  padding: 0 5px;
+  box-shadow: 10px 10px 80px #EEDDD3;
+  box-sizing: border-box;
+
+}
+.pnc{
+	float: left;
+	padding-right: 8px;
+	background-color: white;
+	margin-right: 3%;
+	width: 30%;
+}
+.pnc-loc{
+	width: 100%;
+}
+.menu1 {
+  position: relative;
+  float: left;
+  width: 50%;
+  border: 3px solid #795548;
+  border-radius: 9px;
+
+}
+.menuitem1{
+  position: relative;
+  border-color: #f1f1f1;
+  padding: 8px;
+
+}
+
+input, textarea{
+	position: relative;
+	width: 50%;
+}
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+
+@media only screen and (max-width:800px) {
+	.menu1{
+    width: 100%;
+  }
+  #card2{
+      height: 900%;
+      box-shadow: 10px 10px 80px #EEDDD3
+    }
+  .pnc{
+    width: 100%;
+  }
+  .pnc-loc{
+   	width:100%;
+   }
+}
+@media only screen and (max-width:880px) and (max-width: 914px) {
+    .menu1{
+    width: 100%;
+    }
+    #card2{
+      height: 1200px;
+      box-shadow: 10px 10px 80px #EEDDD3
+    }
+    .pnc{
+    width: 100%;
+    }
+    .pnc-loc{
+   	width:100%
+   }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu1{
+    width: 100%;
+  }
+  #card2{
+      height: 1000%;
+      box-shadow: 10px 10px 80px #EEDDD3
+  } 
+  .pnc{
+    width: 100%;
+  }
+   .pnc-loc{
+   	width:100%;
+   }
+}

@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+#visit{
+	position: absolute;
+	top: 40%;
+	left: 05%;
+	color: white;
+
+}
+#facebook{
+	position: absolute;
+	top: 50%;
+	left: 05%;
+
+}
+
+#facebook:hover {
+    opacity: 0.90;
+}
+.card{
+	position: fixed;
+	width: 100%;
+	top: -20px;
+    background-color: #F3F3F3;
+    box-shadow: 10px 10px 80px #EEDDD3
+
+}
+header{
+	position: relative;
+    display: flex;
+    width: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+@media only screen and (max-width:800px){
+    #visit{
+    	position: relative;
+		top: -120px;
+    }
+     #facebook{
+    	position: relative;
+		top: -110px;
+    }
+    .statement{
+    	top: 5%;
+    }
+    .parallax-window {
+    min-height: 500px;
+    }
+}
+@media only screen and (max-width:880px) and (max-width: 914px) {
+    #visit{
+    	position: relative;
+		top: -120px;
+    }
+     #facebook{
+    	position: relative;
+		top: -110px;
+    }
+    .parallax-window {
+    min-height: 500px;
+    }
+
+}
+@media only screen and (max-width:500px) {
+	#visit{
+    	position: relative;
+		top: -130px;
+		width: 25px;
+
+    }
+    #facebook{
+    	position: relative;
+		top: -120px;
+    }
+    .parallax-window {
+    min-height: 500px;
+    }
+}
+.statement{
+	position: absolute;
+    width: 80%;
+    left: 10%;
+    padding: 0 15px;
+    text-align:center;
+    top: -5%;
+}
+
+
+

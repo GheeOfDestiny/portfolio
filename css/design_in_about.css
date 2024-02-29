@@ -1,0 +1,106 @@
+
+.service-design{
+  position: relative;
+  color: black;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  top: 2px;
+  text-shadow: 10px 10px 80px #EEDDD3
+}
+
+.black{
+  background: transparent;
+}
+
+.brown-background{
+  position: relative;
+  width: 100%;
+
+}
+.menu {
+  position: relative;
+  float: left;
+  width: 15%;
+  border: 3px solid #795548;
+  border-radius: 5px
+}
+.menuitem {
+  position: relative;
+  padding: 8px;
+  border-color: #f1f1f1;
+
+}
+.article {
+  position: relative;
+  float: left;
+  width: 70%;
+  padding: 0 5px;
+  overflow: hidden;
+  font-family: tahoma;
+  text-align: justify;
+}
+.mission-vision{
+  position: relative;
+  background-color: #f1f1f1;
+  float: left;
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+#card1{
+
+  position: relative;
+  height:2000%;
+  background-color:#EEDDD3;
+  padding:5px 5px;
+  box-shadow: 10px;
+  box-shadow: 10px 10px 80px #EEDDD3;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .menu{
+    width: 100%;
+  }
+  .article {
+    width: 100%;
+    padding: 0;
+  }
+  .card1{
+      height: 900%;
+      box-shadow: 10px 10px 80px #EEDDD3
+    }
+  .mission-vision{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:880px) and (max-width: 914px) {
+    .menu{
+    width: 100%;
+  }
+   .article {
+    width: 100%;
+    padding: 0;
+   }
+    .card1{
+      height: 900px;
+      box-shadow: 10px 10px 80px #EEDDD3
+    }
+    .parallax-window {
+    min-height: 500px;
+    }
+
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .article, .right {
+    width: 100%;
+  }
+  .card1{
+      height: 3100%;
+      box-shadow: 10px 10px 80px #EEDDD3
+  }
+}
